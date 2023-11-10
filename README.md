@@ -24,10 +24,6 @@ Network structure of our method when using DenseNet. **Black arrow**: Extracting
 ## Experimental Results
 We evalute the performance of OOD detection using three different neural network architectures: [LeNet5](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf), [WideResNet](https://arxiv.org/abs/1605.07146), [DenseNet](https://arxiv.org/abs/1608.06993). CIFAR-10, CIFAR100 and SVHN are used as the in-distribution datasets, while TinyImageNet, LSUN, iSUN, uniform noise, and Gaussian noise are used as the out-of-distribution datasets.
 
-<p align="center">
-<img src="./figures/result.png" width="700">
-</p>
-
 ## Usage
 
 ### Dependencies
