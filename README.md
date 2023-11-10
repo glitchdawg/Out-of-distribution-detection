@@ -4,11 +4,6 @@ This is a [Pytorch](https://pytorch.org/get-started/locally/) implementation for
 We propose a method that extracts the Uncertainties of Features in Each Layer (UFEL) and combines them for detecting OOD samples when solving classification tasks.
 Some codes are from [odin](https://github.com/facebookresearch/odin), [confidence_estimation](https://github.com/uoguelph-mlrg/confidence_estimation), [deep_Mahalanobis_detector](https://github.com/pokaxpoka/deep_Mahalanobis_detector), [densenet-pytorch](https://github.com/andreasveit/densenet-pytorch), and [WideResNet-pytorch](https://github.com/xternalz/WideResNet-pytorch).
 
-## model architecture
-
-<p align="center">
-<img src="./figures/model_structure.png" width="750">
-</p>
 
 Network structure of our method when using DenseNet. **Black arrow**: Extracting the variance of latent features using the reparameterization trick. **Blue arrow**: Combining these features.
 
